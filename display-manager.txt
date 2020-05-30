@@ -1,0 +1,16 @@
+[0;1;38;5;185mJournal file /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/system@0005a27d97888a97-6ad15c9186514b65.journal~ is truncated, ignoring file.[0m
+-- Logs begin at Thu 2020-04-02 20:33:27 -03, end at Fri 2020-05-29 23:34:04 -03. --
+May 29 23:22:07 localhost systemd[1]: /usr/lib/systemd/system/display-manager.service:12: PIDFile= references a path below legacy directory /var/run/, updating /var/run/displaymanager.pid → /run/displaymanager.pid; please update the unit file accordingly.
+May 29 23:22:08 localhost systemd[1]: Starting X Display Manager...
+May 29 23:22:08 localhost display-manager[1573]: /etc/vconsole.conf available
+May 29 23:22:08 localhost display-manager[1573]: KEYMAP: us
+May 29 23:22:08 localhost display-manager[1573]: Command: localectl set-keymap us
+May 29 23:22:08 localhost display-manager[1573]: I: Using systemd /usr/share/systemd/kbd-model-map mapping
+May 29 23:22:09 localhost systemd[1]: /usr/lib/systemd/system/display-manager.service:12: PIDFile= references a path below legacy directory /var/run/, updating /var/run/displaymanager.pid → /run/displaymanager.pid; please update the unit file accordingly.
+May 29 23:22:09 localhost systemd[1]: /usr/lib/systemd/system/display-manager.service:12: PIDFile= references a path below legacy directory /var/run/, updating /var/run/displaymanager.pid → /run/displaymanager.pid; please update the unit file accordingly.
+May 29 23:22:10 localhost systemd[1]: /usr/lib/systemd/system/display-manager.service:12: PIDFile= references a path below legacy directory /var/run/, updating /var/run/displaymanager.pid → /run/displaymanager.pid; please update the unit file accordingly.
+May 29 23:22:11 localhost.localdomain lightdm[2087]: g_file_test: assertion 'filename != NULL' failed
+May 29 23:22:12 localhost.localdomain display-manager[1535]: Starting service lightdm..done
+May 29 23:22:12 localhost.localdomain systemd[1]: Started X Display Manager.
+May 29 23:22:21 localhost.localdomain lightdm[2185]: gkr-pam: unable to locate daemon control file
+May 29 23:22:21 localhost.localdomain lightdm[2185]: gkr-pam: stashed password to try later in open session

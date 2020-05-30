@@ -1,0 +1,99 @@
+[0;1;39mHint: You are currently not seeing messages from other users and the system.[0m
+[0;1;39m      Users in the 'systemd-journal' group can see all messages. Pass -q to[0m
+[0;1;39m      turn off this notice.[0m
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a2625b1686be-fad6ffd20b120e84.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a2668cf67eab-d599df1bcdfba086.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a269b9ed2a95-247951ff347f168e.journal~
+[0;1;31m604f48: Invalid entry item (8/29 offset: 000000[0m
+[0;1;31m604f48: Invalid object contents: Bad message[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a27d97eec150-54ac79c96f46e6b3.journal~:604f48 (of 8388608 bytes, 75%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a27d97eec150-54ac79c96f46e6b3.journal~ (Bad message)[0m
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a28e70a2580b-73bf6a8b84b6285c.journal~
+[0;1;31m73be20: Invalid entry item (26/29 offset: 000000[0m
+[0;1;31m73be20: Invalid object contents: Bad message[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a2a78f12e0e5-073465d2f4b5f083.journal~:73be20 (of 8388608 bytes, 90%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a2a78f12e0e5-073465d2f4b5f083.journal~ (Bad message)[0m
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a2b83749b7bc-d0ba08d2fc046ea9.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a2b97de1d5f4-88032fcde7b396f5.journal~
+[0;1;31m9ecff8: Invalid object[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a2e11218926d-d2c59cbdc1b9ce5a.journal~:9ecff8 (of 16777216 bytes, 62%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a2e11218926d-d2c59cbdc1b9ce5a.journal~ (Bad message)[0m
+[0;1;31m897e78: Invalid entry item (21/29 offset: 000000[0m
+[0;1;31m897e78: Invalid object contents: Bad message[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3049d7ff67a-6ade40188f9916f4.journal~:897e78 (of 16777216 bytes, 53%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3049d7ff67a-6ade40188f9916f4.journal~ (Bad message)[0m
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a322b2bb0821-9044943040f64b85.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a32cad0d4691-0082c3a18921e316.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a33e804b1b15-d7f370a0e68e3636.journal~
+[0;1;31m5f8df0: Invalid entry item (29/33 offset: 000000[0m
+[0;1;31m5f8df0: Invalid object contents: Bad message[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a343e4aa378b-895fffdc4c279432.journal~:5f8df0 (of 8388608 bytes, 74%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a343e4aa378b-895fffdc4c279432.journal~ (Bad message)[0m
+[0;1;31m88afa8: Invalid hash (3fa7a96d26c13a73 vs. dcd0ed7ae0c07ef9[0m
+[0;1;31m88afa8: Invalid object contents: Bad message[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3550823a3c2-e0511232b7324ea5.journal~:88afa8 (of 16777216 bytes, 53%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3550823a3c2-e0511232b7324ea5.journal~ (Bad message)[0m
+[0;1;31m462fb8: Invalid hash (87a522932156435a vs. f0c87223d498e866[0m
+[0;1;31m462fb8: Invalid object contents: Bad message[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3568a6df9e2-06188e8bdd11c384.journal~:462fb8 (of 8388608 bytes, 54%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3568a6df9e2-06188e8bdd11c384.journal~ (Bad message)[0m
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3a5dda97d11-e63bbe18343cc14a.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3a7945e1236-357eff059724d31d.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3ae8ce770fe-2295c1e617b37ec2.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3cfa9b68696-95818a736427d689.journal~
+[0;1;31m46aef8: Invalid entry item (13/29 offset: 000000[0m
+[0;1;31m46aef8: Invalid object contents: Bad message[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3d0971a56d5-b102932b6239cf24.journal~:46aef8 (of 8388608 bytes, 55%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3d0971a56d5-b102932b6239cf24.journal~ (Bad message)[0m
+[0;1;31m574000: Invalid object[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3e1a13334bd-de6a99e213f8fe33.journal~:574000 (of 8388608 bytes, 68%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3e1a13334bd-de6a99e213f8fe33.journal~ (Bad message)[0m
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3e88294f3f1-a560b8b90f3d5bee.journal~
+[0;1;31m5bef10: Invalid entry item (11/32 offset: 000000[0m
+[0;1;31m5bef10: Invalid object contents: Bad message[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3f5a385f591-16a93acfadf499e9.journal~:5bef10 (of 8388608 bytes, 71%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3f5a385f591-16a93acfadf499e9.journal~ (Bad message)[0m
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3f74e1cd40d-d89071f0c5e5f54c.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a3f836679175-a10f425bc55d2dfa.journal~
+[0;1;31m625ea0: Invalid entry item (18/32 offset: 000000[0m
+[0;1;31m625ea0: Invalid object contents: Bad message[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a40a85beef25-ba0aa46fddb3f59f.journal~:625ea0 (of 8388608 bytes, 76%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a40a85beef25-ba0aa46fddb3f59f.journal~ (Bad message)[0m
+[0;1;31m1af0e30: Invalid entry item (25/29 offset: 000000[0m
+[0;1;31m1af0e30: Invalid object contents: Bad message[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a44be59abc44-b1516c61a2868f92.journal~:1af0e30 (of 33554432 bytes, 84%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a44be59abc44-b1516c61a2868f92.journal~ (Bad message)[0m
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a44eca91330e-e1ac6148ec8ddc90.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a4502da0a728-bcbc3054c03583d8.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a4512ae5f52b-4824b1310f099f3e.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a4585a13bdb2-3151b206ae51583e.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a4b4b8997392-6e50b9218c881ae9.journal~
+[0;1;31m405e00: Invalid entry item (28/29 offset: 000000[0m
+[0;1;31m405e00: Invalid object contents: Bad message[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a4b578d853bf-ab2d4254a09b441b.journal~:405e00 (of 8388608 bytes, 50%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a4b578d853bf-ab2d4254a09b441b.journal~ (Bad message)[0m
+[0;1;31m97df40: Invalid entry item (8/29 offset: 000000[0m
+[0;1;31m97df40: Invalid object contents: Bad message[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a4d1fba28572-85784d2af900199e.journal~:97df40 (of 16777216 bytes, 59%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a4d1fba28572-85784d2af900199e.journal~ (Bad message)[0m
+[0;1;31m68be60: Invalid entry item (22/29 offset: 000000[0m
+[0;1;31m68be60: Invalid object contents: Bad message[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a4e7142806e4-9e5560eb5e4600a5.journal~:68be60 (of 8388608 bytes, 81%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a4e7142806e4-9e5560eb5e4600a5.journal~ (Bad message)[0m
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a4fafd806876-c3bec826dfab5662.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a501fffdde39-d6633dfe912aacc4.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a504baaf2c39-57b836ea86a53f9e.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a511d1f6c0a2-a18bb65eafd553c0.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a52b7a5a7a5e-26ff5b9a37004f37.journal~
+[0;1;38;5;185m5c4ff0: Unused data (entry_offset==0)[0m
+[0;1;31m5c4ff0: Invalid hash (00000000 vs. def73f721dd8bb68[0m
+[0;1;31m5c4ff0: Invalid object contents: Bad message[0m
+[0;1;31mFile corruption detected at /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a539e80bdf9b-0eaa616aa4e6c7e3.journal~:5c4ff0 (of 8388608 bytes, 72%).[0m
+[0;1;38;5;185mFAIL: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a539e80bdf9b-0eaa616aa4e6c7e3.journal~ (Bad message)[0m
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a53d44d7f0c4-2e6062508f2957e6.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a541c74801a2-4b7ddbc7921a271c.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a5a4500bb7a7-a040e0b6e9eee295.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0005a5cdca30139d-da03f4fb4bb23066.journal~
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0ac1294d6c314f0583bd6f221332e055-00000000000006b5-0005a5cdca2fc1a9.journal
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000@0ac1294d6c314f0583bd6f221332e055-0000000000003057-0005a61356cf7c06.journal
+PASS: /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/user-1000.journal
