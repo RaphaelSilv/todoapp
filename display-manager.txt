@@ -1,16 +1,21 @@
-[0;1;38;5;185mJournal file /var/log/journal/7ab3ea39a1994e3dbfce7f7324ebfdd1/system@0005a27d97888a97-6ad15c9186514b65.journal~ is truncated, ignoring file.[0m
--- Logs begin at Thu 2020-04-02 20:33:27 -03, end at Fri 2020-05-29 23:34:04 -03. --
-May 29 23:22:07 localhost systemd[1]: /usr/lib/systemd/system/display-manager.service:12: PIDFile= references a path below legacy directory /var/run/, updating /var/run/displaymanager.pid → /run/displaymanager.pid; please update the unit file accordingly.
-May 29 23:22:08 localhost systemd[1]: Starting X Display Manager...
-May 29 23:22:08 localhost display-manager[1573]: /etc/vconsole.conf available
-May 29 23:22:08 localhost display-manager[1573]: KEYMAP: us
-May 29 23:22:08 localhost display-manager[1573]: Command: localectl set-keymap us
-May 29 23:22:08 localhost display-manager[1573]: I: Using systemd /usr/share/systemd/kbd-model-map mapping
-May 29 23:22:09 localhost systemd[1]: /usr/lib/systemd/system/display-manager.service:12: PIDFile= references a path below legacy directory /var/run/, updating /var/run/displaymanager.pid → /run/displaymanager.pid; please update the unit file accordingly.
-May 29 23:22:09 localhost systemd[1]: /usr/lib/systemd/system/display-manager.service:12: PIDFile= references a path below legacy directory /var/run/, updating /var/run/displaymanager.pid → /run/displaymanager.pid; please update the unit file accordingly.
-May 29 23:22:10 localhost systemd[1]: /usr/lib/systemd/system/display-manager.service:12: PIDFile= references a path below legacy directory /var/run/, updating /var/run/displaymanager.pid → /run/displaymanager.pid; please update the unit file accordingly.
-May 29 23:22:11 localhost.localdomain lightdm[2087]: g_file_test: assertion 'filename != NULL' failed
-May 29 23:22:12 localhost.localdomain display-manager[1535]: Starting service lightdm..done
-May 29 23:22:12 localhost.localdomain systemd[1]: Started X Display Manager.
-May 29 23:22:21 localhost.localdomain lightdm[2185]: gkr-pam: unable to locate daemon control file
-May 29 23:22:21 localhost.localdomain lightdm[2185]: gkr-pam: stashed password to try later in open session
+● display-manager.service - X Display Manager
+     Loaded: loaded (/usr/lib/systemd/system/display-manager.service; enabled; vendor preset: enabled)
+     Active: active (running) since Sat 2020-05-30 18:12:35 -03; 1h 34min ago
+   Main PID: 2085 (xdm)
+      Tasks: 20 (limit: 4915)
+     Memory: 192.6M
+     CGroup: /system.slice/display-manager.service
+             ├─2085 /usr/bin/xdm
+             ├─2087 /usr/bin/X -nolisten tcp -br vt7 -keeptty -auth /var/lib/xdm/authdir/authfiles/A:0-lTLaBR
+             └─2121 /usr/bin/xconsole -notify -nostdin -verbose -exitOnFail
+
+May 30 18:12:35 localhost.localdomain root[2049]: /etc/init.d/xdm: No changes for /etc/X11/xdm/xdm-config
+May 30 18:12:35 localhost.localdomain display-manager[1533]: Starting service xdm..done
+May 30 18:12:35 localhost.localdomain systemd[1]: Started X Display Manager.
+May 30 18:13:02 localhost.localdomain xdm[2108]: gkr-pam: unable to locate daemon control file
+May 30 18:13:02 localhost.localdomain xdm[2108]: gkr-pam: stashed password to try later in open session
+May 30 18:13:02 localhost.localdomain xdm[2108]: pam_unix(xdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=drawbridge
+May 30 18:13:04 localhost.localdomain xdm[2108]: LOGIN FAILURE ON :0, drawbridge
+May 30 18:13:17 localhost.localdomain xdm[2108]: gkr-pam: unable to locate daemon control file
+May 30 18:13:17 localhost.localdomain xdm[2108]: gkr-pam: stashed password to try later in open session
+May 30 18:13:17 localhost.localdomain xdm[2108]: pam_unix(xdm:session): session opened for user drawbridge(uid=1000) by (uid=0)
