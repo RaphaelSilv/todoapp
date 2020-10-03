@@ -1,9 +1,0 @@
-# | Alias         | Name                        | Enabled | GPG Check | Refresh | Priority | Type   | URI                                                      | Service
---+---------------+-----------------------------+---------+-----------+---------+----------+--------+----------------------------------------------------------+--------
-1 | code          | Visual Studio Code          | Yes     | (r ) Yes  | No      |   99     | rpm-md | https://packages.microsoft.com/yumrepos/vscode           | 
-2 | google-chrome | google-chrome               | Yes     | (r ) Yes  | Yes     |   99     | rpm-md | http://dl.google.com/linux/chrome/rpm/stable/x86_64      | 
-3 | repo-debug    | openSUSE-Tumbleweed-Debug   | No      | ----      | ----    |   99     | NONE   | http://download.opensuse.org/debug/tumbleweed/repo/oss/  | 
-4 | repo-non-oss  | openSUSE-Tumbleweed-Non-Oss | Yes     | (r ) Yes  | Yes     |   99     | rpm-md | http://download.opensuse.org/tumbleweed/repo/non-oss/    | 
-5 | repo-oss      | openSUSE-Tumbleweed-Oss     | Yes     | (r ) Yes  | Yes     |   99     | rpm-md | http://download.opensuse.org/tumbleweed/repo/oss/        | 
-6 | repo-source   | openSUSE-Tumbleweed-Source  | No      | ----      | ----    |   99     | NONE   | http://download.opensuse.org/source/tumbleweed/repo/oss/ | 
-7 | repo-update   | openSUSE-Tumbleweed-Update  | Yes     | (r ) Yes  | Yes     |   99     | rpm-md | http://download.opensuse.org/update/tumbleweed/          | 
