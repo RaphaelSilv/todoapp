@@ -5,7 +5,7 @@ import Header from './components/Header';
 import FilterButton from './components/FilterButton';
 import './App.css';
 
-const URI = `http://localhost:5000/api/todoitems/`;
+const URI = `http://20.62.137.22:80/api/todoitems/`;
 
 const FILTER_MAP = {
   All: () => true,
